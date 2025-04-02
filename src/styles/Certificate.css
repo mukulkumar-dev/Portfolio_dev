@@ -1,0 +1,112 @@
+.certificates-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.certificates-card {
+    width: 300px;
+    /* Fixed width */
+    height: 300px;
+    /* Fixed height */
+    margin: 0 auto;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    /* Removed padding from card */
+    border-radius: 5px;
+    transition: all 0.4s ease;
+    box-sizing: border-box;
+    /* Added box-sizing */
+}
+
+.certificates-card:hover {
+    box-shadow: inset 6px 6px 30px rgb(75, 75, 75);
+    border: none;
+}
+
+.certificates-image-container {
+    width: 100%;
+    height: 80%;
+    /* 80% of card height for image */
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 0.5rem;
+    /* Reduced margin */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.certificates-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* Or cover, experiment */
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.certificates-image:hover {
+    transform: scale(1.05);
+}
+
+.certificates-title {
+    font-size: 1.2rem;
+    /* Adjusted font size */
+    margin-bottom: 0;
+    height: 20%;
+    /* 20% of card height for title */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    /* Added box-sizing */
+    padding: 0 0.5rem;
+    /* Added padding */
+}
+
+.certificate-title {
+    color: white;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .certificates-card {
+        width: 250px;
+        /* Adjusted width */
+        height: 250px;
+        /* Adjusted height */
+    }
+
+    .certificates-image-container {
+        height: 75%;
+    }
+
+    .certificates-title {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .certificates-card {
+        width: 200px;
+        /* Adjusted width */
+        height: 200px;
+        /* Adjusted height */
+    }
+
+    .certificates-image-container {
+        height: 70%;
+    }
+
+    .certificates-title {
+        font-size: 1rem;
+    }
+}
