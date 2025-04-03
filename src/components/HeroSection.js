@@ -6,6 +6,7 @@ import { AiOutlineArrowUp } from "react-icons/ai";
 import { animateScroll as scroll } from "react-scroll";
 import { motion } from "framer-motion";
 import CV from "../data/Mukul_Kumar.pdf";
+import { Link } from "react-router-dom";
 
 const HeroSection = ({ nav, handleNav }) => {
 	const scrollToTop = () => {
@@ -104,9 +105,9 @@ const HeroSection = ({ nav, handleNav }) => {
 				variants={contactVariants}
 				initial='hidden'
 				whileInView='visible'>
-				<a href={CV} download='Mukul' className='hero-contact'>
+				<Link to={CV} download='Mukul' className='hero-contact'>
 					Download CV <BiDownload className='cv-icon' />
-				</a>
+				</Link>
 			</motion.span>
 		</div>
 	);

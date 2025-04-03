@@ -7,8 +7,8 @@ const WorkCard = ({ w, tabId }) => {
 	return (
 		<div>
 			{tabId === "react-native" ? (
-				<a
-					href={w.app}
+				<Link
+					to={w.app}
 					download={w.title}
 					target='_blank'
 					rel='noreferrer'
@@ -24,14 +24,14 @@ const WorkCard = ({ w, tabId }) => {
 										</Link>
 									)}
 
-									<a
-										href={w.app}
+									<Link
+										to={w.app}
 										download={w.title}
 										target='_blank'
 										rel='noreferrer'
 										className='work-link'>
 										<FiDownload />
-									</a>
+									</Link>
 								</div>
 							</div>
 							<div className='mid-work'>
@@ -45,7 +45,7 @@ const WorkCard = ({ w, tabId }) => {
 							</div>
 						</div>
 					</div>
-				</a>
+				</Link>
 			) : (
 				<Link to={w.site} target='_blank' className='work-link-group'>
 					<div className='works-card'>

@@ -10,7 +10,6 @@ const NavLinks = ({handleNav}) => {
         <li onClick={handleNav} ><Link  to="" target='_blank' className='nav-link'><FaTwitter /></Link></li>
         <li onClick={handleNav} ><Link  to="https://www.linkedin.com/in/mukul-kumar-515a89249/" target='_blank' className='nav-link'><FaLinkedin /></Link></li>
         <li onClick={handleNav} ><Link  to="https://github.com/mukulkumar-dev/" target='_blank' className='nav-link'><BsGithub /></Link></li>
-        <li onClick={handleNav} ><a  href="" target='_blank' className='nav-link' rel="noreferrer"><BiEnvelope /></a></li>
   </ul>
   )
 };
