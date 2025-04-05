@@ -20,10 +20,7 @@ const About = () => {
           </motion.div>
           <div className="split-about">
             <motion.div initial={{ x: '-100%', opacity: 0 }} whileInView={horizontal} className="about-content">
-              <p>Alright, here's a summary in one or two paragraphs with emojis:
-
-Option:
-
+              <p>
 I'm a highly motivated Software Developer 💻 & Machine Learning Enthusiast 🤖 with a strong command of Java, Node.js, React.js, and database systems like MySQL and MongoDB
 
 . I'm passionate about building efficient and user-friendly applications, demonstrated by my work on full-stack projects like the EduVerse Blogging Platform ✍️ and the Gemini SwiftChat AI chatbot 💬. My experience includes developing a User Management Dashboard with real-time stock insights 📈 during my internship at Bluestock Fintech Company, where I optimized API calls and improved UI performance. !</p>

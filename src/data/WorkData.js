@@ -19,14 +19,14 @@ export const AllData = [
 		desc: "It's a web-based chatbot designed for accessibility and real-time interaction, with measurable success in user engagement after deployment.",
 		tech: ["React.js", "Axios", "APIs", "TailwindCss", "Material UI", "Framer Motion"],
 		gitlink: "https://github.com/mukulkumar-dev/Gemini-_AI_Clone",
-		site: "https://simplegeminicloneai.netlify.app/",
+		site: "https://simplegeminicloneai.netlify.app",
 	},
 	{
 		title: "Book Recommendation System",
 		desc: "It's a system that uses machine learning to recommend books, focusing on efficient data handling, model optimization, and user-friendly presentation.",
 		tech: ["Machine Learning", "Python", "EDA", "Models & Libraries"],
 		gitlink: "https://github.com/mukulkumar-dev/Book-Recommendation-System",
-		site: "https://book-recommendation-system-vai56y73q9wyvkvavut6vk.streamlit.app/",
+		site: "https://book-recommendation-system-vai56y73q9wyvkvavut6vk.streamlit.app",
 	},
 	{
 		title: "Gender Classification Model",
@@ -47,7 +47,7 @@ export const AllData = [
 		desc: "Built a Holiday Homestay website leveraging React.js for dynamic interfaces and Tailwind CSS for responsive, aesthetically pleasing design. ",
 		tech: ["React.js", "TailwindCss", "Framer Motion"],
 		gitlink: "https://github.com/mukulkumar-dev/Holiday-Homes",
-		site: "https://holidayhomesstay.netlify.app/",
+		site: "https://holidayhomesstay.netlify.app",
 	},
 ];
 
@@ -57,7 +57,7 @@ export const MlData = [
 		desc: "It's a system that uses machine learning to recommend books, focusing on efficient data handling, model optimization, and user-friendly presentation.",
 		tech: ["Machine Learning", "Python", "EDA", "Models & Libraries"],
 		gitlink: "https://github.com/mukulkumar-dev/Book-Recommendation-System",
-		site: "https://book-recommendation-system-vai56y73q9wyvkvavut6vk.streamlit.app/",
+		site: "https://book-recommendation-system-vai56y73q9wyvkvavut6vk.streamlit.app",
 	},
 	{
 		title: "Gender Classification Model",
@@ -81,7 +81,7 @@ export const ReactData = [
 			"MongoDB",
 			"User Authentication & JWT"
 		],
-		gitlink: "https://github.com/mukulkumar-dev/EduVerse",
+		gitlink: "https://github.com/mukulkumar-dev/EduVersejsbxjbjhb",
 		site: "",
 	},
 	{
@@ -89,7 +89,7 @@ export const ReactData = [
 		desc: "It's a web-based chatbot designed for accessibility and real-time interaction, with measurable success in user engagement after deployment.",
 		tech: ["React.js", "Axios", "APIs", "TailwindCss", "Material UI", "Framer Motion"],
 		gitlink: "https://github.com/mukulkumar-dev/Gemini-_AI_Clone",
-		site: "https://simplegeminicloneai.netlify.app/",
+		site: "https://simplegeminicloneai.netlify.app",
 	},
 	{
 		title: "Amazon SwiftCart",
@@ -103,6 +103,6 @@ export const ReactData = [
 		desc: "Built a Holiday Homestay website leveraging React.js for dynamic interfaces and Tailwind CSS for responsive, aesthetically pleasing design. ",
 		tech: ["React.js", "TailwindCss", "Framer Motion"],
 		gitlink: "https://github.com/mukulkumar-dev/Holiday-Homes",
-		site: "https://holidayhomesstay.netlify.app/",
+		site: "https://holidayhomesstay.netlify.app",
 	},
 ];
