@@ -1,7 +1,7 @@
 import React from 'react';
 import "../styles/About.css";
 import { motion } from "framer-motion";
-import About_Image from '../images/About_Image.jpg';
+import About_Image from '../images/Me.jpg';
 
 const About = () => {  
   const horizontal = {

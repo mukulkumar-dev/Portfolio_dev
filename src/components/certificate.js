@@ -44,7 +44,7 @@ const Certificate = () => {
                             <div className="certificates-image-container">
                                 <img src={Data} alt="JOVAC" className='certificates-image' />
                             </div>
-                            <p className='certificates-title certificate-title'>Data Visualisation:Empowring The Wolrd</p>
+                            <p className='certificates-title certificate-title'>Data Visualisation:Empowering The World</p>
                         </div>
                         <div className="certificates-card">
                             <div className="certificates-image-container">
